@@ -1,6 +1,8 @@
 window.CPPool243Init = function() { cp.model['243Data']={
 };cp.poolSlideResources['pool243']={
 };
+cp.poolSlideVideoResources['pool243']={
+};
 cp.model.data['243']={
 pqs:[],
 gqs:[],

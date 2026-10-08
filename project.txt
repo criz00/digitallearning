@@ -1,11 +1,11 @@
 {"metadata":{
 "generator":"Captivate",
-"generatorVersion":"13.0.0",
+"generatorVersion":"13.2.0",
 "schemaVersion":"",
 "tags":"",
 "thumbnail":"",
 "source":"assets",
-"durationInFrames":2880,
+"durationInFrames":50919,
 "frameRate":30,
 "totalSlides":32,
 "width":1366,
@@ -230,6 +230,7 @@
 "class":"Normal Slide",
 "instance":"",
 "thumbnail":"",
+"isOverlaySlide":false,
 "children":[],
 "roles":{
 "slide":{
@@ -362,6 +363,7 @@
 "class":"Normal Slide",
 "instance":"Introduction 5",
 "thumbnail":"",
+"isOverlaySlide":false,
 "children":[],
 "roles":{
 "slide":{
@@ -532,19 +534,6 @@
 "subtype":"button"
 }
 ,
-"question":{
-"interactionId":"769",
-"quizId":-1,
-"text":"",
-"type":"graded",
-"interactionType":"choice",
-"score":{
-"weight":1,
-"penalty":0
-}
-
-}
-,
 "textData":{
 }
 
@@ -558,19 +547,6 @@
 "roles":{
 "click":{
 "subtype":"button"
-}
-,
-"question":{
-"interactionId":"777",
-"quizId":-1,
-"text":"",
-"type":"graded",
-"interactionType":"choice",
-"score":{
-"weight":1,
-"penalty":0
-}
-
 }
 ,
 "textData":{
@@ -644,6 +620,7 @@
 "class":"Normal Slide",
 "instance":"Module Overview",
 "thumbnail":"",
+"isOverlaySlide":false,
 "children":[],
 "roles":{
 "slide":{
@@ -789,6 +766,7 @@
 "class":"Normal Slide",
 "instance":"Blank 3",
 "thumbnail":"",
+"isOverlaySlide":false,
 "children":[],
 "roles":{
 "slide":{
@@ -868,18 +846,6 @@
 "roles":{
 "click":{
 "subtype":"button"
-}
-,
-"question":{
-"quizId":-1,
-"text":"",
-"type":"graded",
-"interactionType":"choice",
-"score":{
-"weight":1,
-"penalty":0
-}
-
 }
 ,
 "textData":{
@@ -2241,6 +2207,7 @@
 "class":"Normal Slide",
 "instance":"Step 3_ Invite and Welcome Input - 1",
 "thumbnail":"",
+"isOverlaySlide":false,
 "children":[],
 "roles":{
 "slide":{
@@ -2495,6 +2462,7 @@
 "class":"Normal Slide",
 "instance":"Transition to Step (1)",
 "thumbnail":"",
+"isOverlaySlide":false,
 "children":[],
 "roles":{
 "slide":{
@@ -3646,6 +3614,7 @@
 "class":"Normal Slide",
 "instance":"Step 1_ Prepare for Performance Review",
 "thumbnail":"",
+"isOverlaySlide":false,
 "children":[],
 "roles":{
 "slide":{
@@ -3787,7 +3756,7 @@
 "roles":{
 "click":{
 "subtype":"button",
-"question":"Slide37044q5"
+"question":"Slide37044q0"
 }
 ,
 "textData":{
@@ -3804,7 +3773,7 @@
 "roles":{
 "click":{
 "subtype":"button",
-"question":"Slide37044q5"
+"question":"Slide37044q0"
 }
 ,
 "textData":{
@@ -3821,7 +3790,7 @@
 "roles":{
 "click":{
 "subtype":"button",
-"question":"Slide37044q5"
+"question":"Slide37044q0"
 }
 ,
 "textData":{
@@ -3838,7 +3807,7 @@
 "roles":{
 "click":{
 "subtype":"button",
-"question":"Slide37044q5"
+"question":"Slide37044q0"
 }
 ,
 "textData":{
@@ -3855,7 +3824,7 @@
 "roles":{
 "click":{
 "subtype":"button",
-"question":"Slide37044q5"
+"question":"Slide37044q0"
 }
 ,
 "textData":{
@@ -3872,7 +3841,7 @@
 "roles":{
 "click":{
 "subtype":"button",
-"question":"Slide37044q5"
+"question":"Slide37044q0"
 }
 ,
 "textData":{
@@ -3889,7 +3858,7 @@
 "roles":{
 "click":{
 "subtype":"button",
-"question":"Slide37044q5"
+"question":"Slide37044q0"
 }
 ,
 "textData":{
@@ -3906,7 +3875,7 @@
 "roles":{
 "click":{
 "subtype":"button",
-"question":"Slide37044q5"
+"question":"Slide37044q0"
 }
 ,
 "textData":{
@@ -3923,7 +3892,7 @@
 "roles":{
 "click":{
 "subtype":"button",
-"question":"Slide37044q5"
+"question":"Slide37044q0"
 }
 ,
 "textData":{
@@ -3940,7 +3909,7 @@
 "roles":{
 "click":{
 "subtype":"button",
-"question":"Slide37044q5"
+"question":"Slide37044q0"
 }
 ,
 "textData":{
@@ -3954,6 +3923,7 @@
 "class":"Question Slide",
 "instance":"Multiple choice 1",
 "thumbnail":"",
+"isOverlaySlide":false,
 "children":[],
 "roles":{
 "slide":{
@@ -4106,7 +4076,7 @@
 "roles":{
 "click":{
 "subtype":"button",
-"question":"Slide37659q5"
+"question":"Slide37659q1"
 }
 ,
 "textData":{
@@ -4123,7 +4093,7 @@
 "roles":{
 "click":{
 "subtype":"button",
-"question":"Slide37659q5"
+"question":"Slide37659q1"
 }
 ,
 "textData":{
@@ -4140,7 +4110,7 @@
 "roles":{
 "click":{
 "subtype":"button",
-"question":"Slide37659q5"
+"question":"Slide37659q1"
 }
 ,
 "textData":{
@@ -4157,7 +4127,7 @@
 "roles":{
 "click":{
 "subtype":"button",
-"question":"Slide37659q5"
+"question":"Slide37659q1"
 }
 ,
 "textData":{
@@ -4174,7 +4144,7 @@
 "roles":{
 "click":{
 "subtype":"button",
-"question":"Slide37659q5"
+"question":"Slide37659q1"
 }
 ,
 "textData":{
@@ -4191,7 +4161,7 @@
 "roles":{
 "click":{
 "subtype":"button",
-"question":"Slide37659q5"
+"question":"Slide37659q1"
 }
 ,
 "textData":{
@@ -4259,7 +4229,7 @@
 "roles":{
 "click":{
 "subtype":"button",
-"question":"Slide37659q5"
+"question":"Slide37659q1"
 }
 ,
 "textData":{
@@ -4273,6 +4243,7 @@
 "class":"Question Slide",
 "instance":"Multiple choice 2",
 "thumbnail":"",
+"isOverlaySlide":false,
 "children":[],
 "roles":{
 "slide":{
@@ -4292,7 +4263,7 @@
 "type":"knowledgeCheck",
 "interactionType":"choice",
 "ramdomized":false,
-"correctAnswers":[]
+"correctAnswers":["si37506"]
 }
 
 }
@@ -4539,6 +4510,7 @@
 "class":"Normal Slide",
 "instance":"Transition to Step (2)",
 "thumbnail":"",
+"isOverlaySlide":false,
 "children":[],
 "roles":{
 "slide":{
@@ -4592,6 +4564,19 @@
 "subtype":"button"
 }
 ,
+"question":{
+"interactionId":"7979",
+"quizId":-1,
+"text":"",
+"type":"graded",
+"interactionType":"choice",
+"score":{
+"weight":1,
+"penalty":0
+}
+
+}
+,
 "textData":{
 }
 
@@ -4605,6 +4590,19 @@
 "roles":{
 "click":{
 "subtype":"button"
+}
+,
+"question":{
+"interactionId":"7987",
+"quizId":-1,
+"text":"",
+"type":"graded",
+"interactionType":"choice",
+"score":{
+"weight":1,
+"penalty":0
+}
+
 }
 ,
 "textData":{
@@ -4883,6 +4881,7 @@
 "class":"Normal Slide",
 "instance":"Step 2_ Set Clear Expectations",
 "thumbnail":"",
+"isOverlaySlide":false,
 "children":[],
 "roles":{
 "slide":{
@@ -5023,7 +5022,7 @@
 "roles":{
 "click":{
 "subtype":"button",
-"question":"Slide37971q5"
+"question":"Slide37971q2"
 }
 ,
 "textData":{
@@ -5040,7 +5039,7 @@
 "roles":{
 "click":{
 "subtype":"button",
-"question":"Slide37971q5"
+"question":"Slide37971q2"
 }
 ,
 "textData":{
@@ -5057,7 +5056,7 @@
 "roles":{
 "click":{
 "subtype":"button",
-"question":"Slide37971q5"
+"question":"Slide37971q2"
 }
 ,
 "textData":{
@@ -5074,7 +5073,7 @@
 "roles":{
 "click":{
 "subtype":"button",
-"question":"Slide37971q5"
+"question":"Slide37971q2"
 }
 ,
 "textData":{
@@ -5091,7 +5090,7 @@
 "roles":{
 "click":{
 "subtype":"button",
-"question":"Slide37971q5"
+"question":"Slide37971q2"
 }
 ,
 "textData":{
@@ -5108,7 +5107,7 @@
 "roles":{
 "click":{
 "subtype":"button",
-"question":"Slide37971q5"
+"question":"Slide37971q2"
 }
 ,
 "textData":{
@@ -5176,7 +5175,7 @@
 "roles":{
 "click":{
 "subtype":"button",
-"question":"Slide37971q5"
+"question":"Slide37971q2"
 }
 ,
 "textData":{
@@ -5190,6 +5189,7 @@
 "class":"Question Slide",
 "instance":"Multiple choice 3",
 "thumbnail":"",
+"isOverlaySlide":false,
 "children":[],
 "roles":{
 "slide":{
@@ -5209,7 +5209,7 @@
 "type":"knowledgeCheck",
 "interactionType":"choice",
 "ramdomized":false,
-"correctAnswers":[]
+"correctAnswers":["si37810"]
 }
 
 }
@@ -5456,6 +5456,7 @@
 "class":"Normal Slide",
 "instance":"Transition to Step  (3)",
 "thumbnail":"",
+"isOverlaySlide":false,
 "children":[],
 "roles":{
 "slide":{
@@ -5507,19 +5508,6 @@
 "roles":{
 "click":{
 "subtype":"button"
-}
-,
-"question":{
-"interactionId":"1031",
-"quizId":-1,
-"text":"",
-"type":"graded",
-"interactionType":"choice",
-"score":{
-"weight":1,
-"penalty":0
-}
-
 }
 ,
 "textData":{
@@ -6254,6 +6242,7 @@
 "class":"Normal Slide",
 "instance":"Step 3_ Invite and Welcome Input",
 "thumbnail":"",
+"isOverlaySlide":false,
 "children":[],
 "roles":{
 "slide":{
@@ -6394,7 +6383,7 @@
 "roles":{
 "click":{
 "subtype":"button",
-"question":"Slide38283q5"
+"question":"Slide38283q3"
 }
 ,
 "textData":{
@@ -6411,7 +6400,7 @@
 "roles":{
 "click":{
 "subtype":"button",
-"question":"Slide38283q5"
+"question":"Slide38283q3"
 }
 ,
 "textData":{
@@ -6428,7 +6417,7 @@
 "roles":{
 "click":{
 "subtype":"button",
-"question":"Slide38283q5"
+"question":"Slide38283q3"
 }
 ,
 "textData":{
@@ -6445,7 +6434,7 @@
 "roles":{
 "click":{
 "subtype":"button",
-"question":"Slide38283q5"
+"question":"Slide38283q3"
 }
 ,
 "textData":{
@@ -6462,7 +6451,7 @@
 "roles":{
 "click":{
 "subtype":"button",
-"question":"Slide38283q5"
+"question":"Slide38283q3"
 }
 ,
 "textData":{
@@ -6479,7 +6468,7 @@
 "roles":{
 "click":{
 "subtype":"button",
-"question":"Slide38283q5"
+"question":"Slide38283q3"
 }
 ,
 "textData":{
@@ -6547,7 +6536,7 @@
 "roles":{
 "click":{
 "subtype":"button",
-"question":"Slide38283q5"
+"question":"Slide38283q3"
 }
 ,
 "textData":{
@@ -6561,6 +6550,7 @@
 "class":"Question Slide",
 "instance":"Multiple choice 4",
 "thumbnail":"",
+"isOverlaySlide":false,
 "children":[],
 "roles":{
 "slide":{
@@ -6580,7 +6570,7 @@
 "type":"knowledgeCheck",
 "interactionType":"choice",
 "ramdomized":false,
-"correctAnswers":[]
+"correctAnswers":["si38130"]
 }
 
 }
@@ -6741,19 +6731,6 @@
 "subtype":"button"
 }
 ,
-"question":{
-"interactionId":"51361",
-"quizId":-1,
-"text":"",
-"type":"graded",
-"interactionType":"choice",
-"score":{
-"weight":1,
-"penalty":0
-}
-
-}
-,
 "textData":{
 }
 
@@ -6767,19 +6744,6 @@
 "roles":{
 "click":{
 "subtype":"button"
-}
-,
-"question":{
-"interactionId":"51369",
-"quizId":-1,
-"text":"",
-"type":"graded",
-"interactionType":"choice",
-"score":{
-"weight":1,
-"penalty":0
-}
-
 }
 ,
 "textData":{
@@ -6853,6 +6817,7 @@
 "class":"Normal Slide",
 "instance":"Transition to Step  (3) - 1",
 "thumbnail":"",
+"isOverlaySlide":false,
 "children":[],
 "roles":{
 "slide":{
@@ -6904,19 +6869,6 @@
 "roles":{
 "click":{
 "subtype":"button"
-}
-,
-"question":{
-"interactionId":"17072",
-"quizId":-1,
-"text":"",
-"type":"graded",
-"interactionType":"choice",
-"score":{
-"weight":1,
-"penalty":0
-}
-
 }
 ,
 "textData":{
@@ -7771,6 +7723,7 @@
 "class":"Normal Slide",
 "instance":"Step 4_ Share Your Views",
 "thumbnail":"",
+"isOverlaySlide":false,
 "children":[],
 "roles":{
 "slide":{
@@ -7911,7 +7864,7 @@
 "roles":{
 "click":{
 "subtype":"button",
-"question":"Slide38595q5"
+"question":"Slide38595q4"
 }
 ,
 "textData":{
@@ -7928,7 +7881,7 @@
 "roles":{
 "click":{
 "subtype":"button",
-"question":"Slide38595q5"
+"question":"Slide38595q4"
 }
 ,
 "textData":{
@@ -7945,7 +7898,7 @@
 "roles":{
 "click":{
 "subtype":"button",
-"question":"Slide38595q5"
+"question":"Slide38595q4"
 }
 ,
 "textData":{
@@ -7962,7 +7915,7 @@
 "roles":{
 "click":{
 "subtype":"button",
-"question":"Slide38595q5"
+"question":"Slide38595q4"
 }
 ,
 "textData":{
@@ -7979,7 +7932,7 @@
 "roles":{
 "click":{
 "subtype":"button",
-"question":"Slide38595q5"
+"question":"Slide38595q4"
 }
 ,
 "textData":{
@@ -7996,7 +7949,7 @@
 "roles":{
 "click":{
 "subtype":"button",
-"question":"Slide38595q5"
+"question":"Slide38595q4"
 }
 ,
 "textData":{
@@ -8064,7 +8017,7 @@
 "roles":{
 "click":{
 "subtype":"button",
-"question":"Slide38595q5"
+"question":"Slide38595q4"
 }
 ,
 "textData":{
@@ -8078,6 +8031,7 @@
 "class":"Question Slide",
 "instance":"Multiple choice 5",
 "thumbnail":"",
+"isOverlaySlide":false,
 "children":[],
 "roles":{
 "slide":{
@@ -8097,7 +8051,7 @@
 "type":"knowledgeCheck",
 "interactionType":"choice",
 "ramdomized":false,
-"correctAnswers":[]
+"correctAnswers":["si38426"]
 }
 
 }
@@ -8344,6 +8298,7 @@
 "class":"Normal Slide",
 "instance":"Transition to Step (5)",
 "thumbnail":"",
+"isOverlaySlide":false,
 "children":[],
 "roles":{
 "slide":{
@@ -8932,6 +8887,7 @@
 "class":"Normal Slide",
 "instance":"Step 5_ Agree On Next Steps - 2",
 "thumbnail":"",
+"isOverlaySlide":false,
 "children":[],
 "roles":{
 "slide":{
@@ -9239,6 +9195,7 @@
 "class":"Question Slide",
 "instance":"Multiple choice 6",
 "thumbnail":"",
+"isOverlaySlide":false,
 "children":[],
 "roles":{
 "slide":{
@@ -9258,7 +9215,7 @@
 "type":"knowledgeCheck",
 "interactionType":"choice",
 "ramdomized":false,
-"correctAnswers":[]
+"correctAnswers":["si38746"]
 }
 
 }
@@ -9302,6 +9259,19 @@
 "roles":{
 "click":{
 "subtype":"button"
+}
+,
+"question":{
+"interactionId":"53738",
+"quizId":-1,
+"text":"",
+"type":"graded",
+"interactionType":"choice",
+"score":{
+"weight":1,
+"penalty":0
+}
+
 }
 ,
 "textData":{
@@ -10051,6 +10021,7 @@
 "class":"Normal Slide",
 "instance":"Blank 4",
 "thumbnail":"",
+"isOverlaySlide":false,
 "children":[],
 "roles":{
 "slide":{
@@ -11015,6 +10986,7 @@
 "class":"Normal Slide",
 "instance":"Resources",
 "thumbnail":"",
+"isOverlaySlide":false,
 "children":[],
 "roles":{
 "slide":{
@@ -11139,6 +11111,7 @@
 "class":"Normal Slide",
 "instance":"Title and text 1",
 "thumbnail":"",
+"isOverlaySlide":false,
 "children":[],
 "roles":{
 "slide":{
@@ -11190,19 +11163,6 @@
 "roles":{
 "click":{
 "subtype":"button"
-}
-,
-"question":{
-"interactionId":"60199",
-"quizId":-1,
-"text":"",
-"type":"graded",
-"interactionType":"choice",
-"score":{
-"weight":1,
-"penalty":0
-}
-
 }
 ,
 "textData":{
@@ -11610,6 +11570,7 @@
 "class":"Normal Slide",
 "instance":"Prepare team member",
 "thumbnail":"",
+"isOverlaySlide":false,
 "children":[],
 "roles":{
 "slide":{
@@ -12116,6 +12077,7 @@
 "class":"Normal Slide",
 "instance":"Collecting Data 1",
 "thumbnail":"",
+"isOverlaySlide":false,
 "children":[],
 "roles":{
 "slide":{
@@ -12609,6 +12571,7 @@
 "class":"Normal Slide",
 "instance":"Collecting Data 2",
 "thumbnail":"",
+"isOverlaySlide":false,
 "children":[],
 "roles":{
 "slide":{
@@ -12729,6 +12692,19 @@
 "roles":{
 "click":{
 "subtype":"button"
+}
+,
+"question":{
+"interactionId":"30334",
+"quizId":-1,
+"text":"",
+"type":"graded",
+"interactionType":"choice",
+"score":{
+"weight":1,
+"penalty":0
+}
+
 }
 ,
 "textData":{
@@ -13102,6 +13078,7 @@
 "class":"Normal Slide",
 "instance":"Collecting Data 3",
 "thumbnail":"",
+"isOverlaySlide":false,
 "children":[],
 "roles":{
 "slide":{
@@ -13138,6 +13115,19 @@
 "roles":{
 "click":{
 "subtype":"button"
+}
+,
+"question":{
+"interactionId":"60793",
+"quizId":-1,
+"text":"",
+"type":"graded",
+"interactionType":"choice",
+"score":{
+"weight":1,
+"penalty":0
+}
+
 }
 ,
 "textData":{
@@ -13586,14 +13576,121 @@
 
 },
 {
+"id":"si66140",
+"class":"TODO::Senthil",
+"instance":"Paragraph_97",
+"roles":{
+}
+
+},
+{
+"id":"si66148",
+"class":"TODO::Senthil",
+"instance":"Paragraph_Group_76",
+"roles":{
+}
+
+},
+{
+"id":"si66156",
+"class":"TODO::Senthil",
+"instance":"Text_594",
+"roles":{
+"click":{
+"subtype":"button"
+}
+,
+"textData":{
+}
+
+}
+
+},
+{
+"id":"si66164",
+"class":"TODO::Senthil",
+"instance":"Text_595",
+"roles":{
+"click":{
+"subtype":"button"
+}
+,
+"textData":{
+}
+
+}
+
+},
+{
+"id":"si66172",
+"class":"TODO::Senthil",
+"instance":"Text_596",
+"roles":{
+"click":{
+"subtype":"button"
+}
+,
+"textData":{
+}
+
+}
+
+},
+{
+"id":"si66180",
+"class":"TODO::Senthil",
+"instance":"Button_711",
+"roles":{
+"click":{
+"subtype":"button"
+}
+,
+"textData":{
+}
+
+}
+
+},
+{
+"id":"si66194",
+"class":"TODO::Senthil",
+"instance":"Button_712",
+"roles":{
+"click":{
+"subtype":"button"
+}
+,
+"textData":{
+}
+
+}
+
+},
+{
+"id":"si66208",
+"class":"TODO::Senthil",
+"instance":"Button_713",
+"roles":{
+"click":{
+"subtype":"button"
+}
+,
+"textData":{
+}
+
+}
+
+},
+{
 "id":"Slide61187",
 "class":"Normal Slide",
 "instance":"STEP 2_ SET EXPECTATIONS",
 "thumbnail":"",
+"isOverlaySlide":false,
 "children":[],
 "roles":{
 "slide":{
-"durationInFrames":4122
+"durationInFrames":4647
 }
 ,
 "navigation":{
@@ -14115,14 +14212,121 @@
 
 },
 {
+"id":"si66306",
+"class":"TODO::Senthil",
+"instance":"Paragraph_98",
+"roles":{
+}
+
+},
+{
+"id":"si66300",
+"class":"TODO::Senthil",
+"instance":"Paragraph_Group_77",
+"roles":{
+}
+
+},
+{
+"id":"si66233",
+"class":"TODO::Senthil",
+"instance":"Text_597",
+"roles":{
+"click":{
+"subtype":"button"
+}
+,
+"textData":{
+}
+
+}
+
+},
+{
+"id":"si66241",
+"class":"TODO::Senthil",
+"instance":"Text_598",
+"roles":{
+"click":{
+"subtype":"button"
+}
+,
+"textData":{
+}
+
+}
+
+},
+{
+"id":"si66249",
+"class":"TODO::Senthil",
+"instance":"Text_599",
+"roles":{
+"click":{
+"subtype":"button"
+}
+,
+"textData":{
+}
+
+}
+
+},
+{
+"id":"si66266",
+"class":"TODO::Senthil",
+"instance":"Button_714",
+"roles":{
+"click":{
+"subtype":"button"
+}
+,
+"textData":{
+}
+
+}
+
+},
+{
+"id":"si66280",
+"class":"TODO::Senthil",
+"instance":"Button_715",
+"roles":{
+"click":{
+"subtype":"button"
+}
+,
+"textData":{
+}
+
+}
+
+},
+{
+"id":"si66294",
+"class":"TODO::Senthil",
+"instance":"Button_716",
+"roles":{
+"click":{
+"subtype":"button"
+}
+,
+"textData":{
+}
+
+}
+
+},
+{
 "id":"Slide61851",
 "class":"Normal Slide",
 "instance":"STEP 3_ INVITE INPUT",
 "thumbnail":"",
+"isOverlaySlide":false,
 "children":[],
 "roles":{
 "slide":{
-"durationInFrames":4122
+"durationInFrames":4644
 }
 ,
 "navigation":{
@@ -14155,6 +14359,19 @@
 "roles":{
 "click":{
 "subtype":"button"
+}
+,
+"question":{
+"interactionId":"61886",
+"quizId":-1,
+"text":"",
+"type":"graded",
+"interactionType":"choice",
+"score":{
+"weight":1,
+"penalty":0
+}
+
 }
 ,
 "textData":{
@@ -14618,14 +14835,121 @@
 
 },
 {
+"id":"si66391",
+"class":"TODO::Senthil",
+"instance":"Paragraph_99",
+"roles":{
+}
+
+},
+{
+"id":"si66385",
+"class":"TODO::Senthil",
+"instance":"Paragraph_Group_78",
+"roles":{
+}
+
+},
+{
+"id":"si66318",
+"class":"TODO::Senthil",
+"instance":"Text_600",
+"roles":{
+"click":{
+"subtype":"button"
+}
+,
+"textData":{
+}
+
+}
+
+},
+{
+"id":"si66326",
+"class":"TODO::Senthil",
+"instance":"Text_601",
+"roles":{
+"click":{
+"subtype":"button"
+}
+,
+"textData":{
+}
+
+}
+
+},
+{
+"id":"si66334",
+"class":"TODO::Senthil",
+"instance":"Text_602",
+"roles":{
+"click":{
+"subtype":"button"
+}
+,
+"textData":{
+}
+
+}
+
+},
+{
+"id":"si66351",
+"class":"TODO::Senthil",
+"instance":"Button_717",
+"roles":{
+"click":{
+"subtype":"button"
+}
+,
+"textData":{
+}
+
+}
+
+},
+{
+"id":"si66365",
+"class":"TODO::Senthil",
+"instance":"Button_718",
+"roles":{
+"click":{
+"subtype":"button"
+}
+,
+"textData":{
+}
+
+}
+
+},
+{
+"id":"si66379",
+"class":"TODO::Senthil",
+"instance":"Button_719",
+"roles":{
+"click":{
+"subtype":"button"
+}
+,
+"textData":{
+}
+
+}
+
+},
+{
 "id":"Slide62187",
 "class":"Normal Slide",
 "instance":"STEP 4_ SHARE YOUR VIEWS",
 "thumbnail":"",
+"isOverlaySlide":false,
 "children":[],
 "roles":{
 "slide":{
-"durationInFrames":4122
+"durationInFrames":4644
 }
 ,
 "navigation":{
@@ -15147,14 +15471,121 @@
 
 },
 {
+"id":"si66476",
+"class":"TODO::Senthil",
+"instance":"Paragraph_100",
+"roles":{
+}
+
+},
+{
+"id":"si66470",
+"class":"TODO::Senthil",
+"instance":"Paragraph_Group_79",
+"roles":{
+}
+
+},
+{
+"id":"si66403",
+"class":"TODO::Senthil",
+"instance":"Text_603",
+"roles":{
+"click":{
+"subtype":"button"
+}
+,
+"textData":{
+}
+
+}
+
+},
+{
+"id":"si66411",
+"class":"TODO::Senthil",
+"instance":"Text_604",
+"roles":{
+"click":{
+"subtype":"button"
+}
+,
+"textData":{
+}
+
+}
+
+},
+{
+"id":"si66419",
+"class":"TODO::Senthil",
+"instance":"Text_605",
+"roles":{
+"click":{
+"subtype":"button"
+}
+,
+"textData":{
+}
+
+}
+
+},
+{
+"id":"si66436",
+"class":"TODO::Senthil",
+"instance":"Button_720",
+"roles":{
+"click":{
+"subtype":"button"
+}
+,
+"textData":{
+}
+
+}
+
+},
+{
+"id":"si66450",
+"class":"TODO::Senthil",
+"instance":"Button_721",
+"roles":{
+"click":{
+"subtype":"button"
+}
+,
+"textData":{
+}
+
+}
+
+},
+{
+"id":"si66464",
+"class":"TODO::Senthil",
+"instance":"Button_722",
+"roles":{
+"click":{
+"subtype":"button"
+}
+,
+"textData":{
+}
+
+}
+
+},
+{
 "id":"Slide63902",
 "class":"Normal Slide",
 "instance":"STEP 5_ AGREE ON NEXT STEPS",
 "thumbnail":"",
+"isOverlaySlide":false,
 "children":[],
 "roles":{
 "slide":{
-"durationInFrames":4122
+"durationInFrames":4644
 }
 ,
 "navigation":{
@@ -15545,6 +15976,7 @@
 "class":"Question Slide",
 "instance":"Result 1",
 "thumbnail":"",
+"isOverlaySlide":false,
 "children":[],
 "roles":{
 "slide":{
@@ -15572,9 +16004,9 @@
 
 },
 {
-"id":"10.1.26 Conducting Performance Reviews v2 ",
+"id":"10.8.26 Conducting Performance Reviews",
 "class":"project",
-"title":"10.1.26 Conducting Performance Reviews v2 ",
+"title":"10.8.26 Conducting Performance Reviews",
 "children":["Slide49384","Slide427","Slide51137","Slide52807","Slide25509","Slide2859","Slide37044","Slide37659","Slide26058","Slide7885","Slide37971","Slide26263","Slide1201","Slide38283","Slide51461","Slide17720","Slide38595","Slide26673","Slide19384","Slide38907","Slide53358","Slide34245","Slide43344","Slide60601","Slide28521","Slide30257","Slide30497","Slide61187","Slide61851","Slide62187","Slide63902"],
 "roles":{
 "quiz":{
@@ -15582,7 +16014,7 @@
 "branched":false,
 "submitAll":false,
 "review":true,
-"questions":["Slide37044q5","Slide37659q5","Slide37971q5","Slide38283q5","Slide38595q5","Slide38907q5"],
+"questions":["Slide37044q0","Slide37659q1","Slide37971q2","Slide38283q3","Slide38595q4","Slide38907q5"],
 "minScore":0,
 "maxScore":0,
 "passScore":0
@@ -15598,6 +16030,11 @@
 ,
 "toc":{
 "enabled":false
+}
+,
+"hideCaptivatePlaybarAndToc":true,
+"quizScoring":{
+"maxScore":0
 }
 ,
 "playbar":{
