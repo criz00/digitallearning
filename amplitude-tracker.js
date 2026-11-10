@@ -15,6 +15,26 @@
     return (e && (e.Data || e.data)) || {};
   }
 
+  // Looks up the slide's name (as set in Captivate) from the course data.
+  function slideName(slideNumber, navid) {
+    try {
+      var D = window.cp && window.cp.D;
+      if (!D) return null;
+      var id = navid;
+      if (!id || !D[id]) {
+        var proj = D.project_main || D.project;
+        id = proj.slides.split(',')[slideNumber - 1];
+      }
+      return (D[id] && D[id].lb) || null;
+    } catch (err) {
+      return null;
+    }
+  }
+
+  function currentSlideNumber() {
+    try { return window.cpAPIInterface.getCurrentSlideIndex(); } catch (err) { return null; }
+  }
+
   function attach(emitter) {
     var startedAt = Date.now();
     var slideEnteredAt = Date.now();
@@ -37,8 +57,10 @@
       var d = getData(e);
       slideEnteredAt = Date.now();
       if (d.percentageSlideSeen != null) percentSeen = Math.round(d.percentageSlideSeen);
+      var num = d.slideNumber != null ? d.slideNumber : currentSlideNumber();
       track('Slide Viewed', {
-        slide_number: d.slideNumber != null ? d.slideNumber : null,
+        slide_number: num,
+        slide_name: slideName(num, d.navid),
         percent_of_course_seen: percentSeen
       });
       if (percentSeen >= 100) complete();
@@ -48,6 +70,7 @@
       var d = getData(e);
       track('Slide Exited', {
         slide_number: d.slideNumber != null ? d.slideNumber : null,
+        slide_name: slideName(d.slideNumber, d.navid),
         seconds_on_slide: Math.round((Date.now() - slideEnteredAt) / 1000)
       });
     });
@@ -56,6 +79,7 @@
       if (DEBUG) console.log('[Captivate] QUESTIONSUBMIT', e);
       var d = getData(e);
       track('Quiz Question Answered', {
+        slide_name: slideName(currentSlideNumber()),
         question_number: d.questionNumber != null ? d.questionNumber : null,
         interaction_id: d.interactionID || null,
         correct: d.questionAnsweredCorrectly != null ? !!d.questionAnsweredCorrectly : null,
@@ -66,6 +90,7 @@
     emitter.addEventListener('CPAPI_QUESTIONSKIP', function (e) {
       var d = getData(e);
       track('Quiz Question Skipped', {
+        slide_name: slideName(currentSlideNumber()),
         question_number: d.questionNumber != null ? d.questionNumber : null
       });
     });
