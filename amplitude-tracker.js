@@ -1,6 +1,6 @@
 (function () {
   var COURSE_NAME = 'Conducting Performance Reviews';
-  var DEBUG = true; // set to false once everything works
+  var DEBUG = false; // set to false once everything works
 
   function track(name, props) {
     props = props || {};
