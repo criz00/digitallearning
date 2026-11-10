@@ -1,6 +1,6 @@
 (function () {
   var COURSE_NAME = 'Conducting Performance Reviews';
-  var DEBUG = false; // set to false once everything works
+  var DEBUG = true; // set to false once everything works
 
   function track(name, props) {
     props = props || {};
@@ -110,9 +110,4 @@
       clearInterval(timer);
       if (DEBUG) console.log('[Amplitude] Connected to Captivate events');
       attach(emitter);
-    } else if (tries > 120) {
-      clearInterval(timer);
-      console.warn('[Amplitude] Could not find Captivate event emitter');
-    }
-  }, 500);
-})();
+    } else if (tries >
