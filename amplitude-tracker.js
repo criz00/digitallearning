@@ -1,10 +1,6 @@
-/*
- * Amplitude tracking for a course built in the newer Adobe Captivate (12+),
- * hosted on GitHub Pages.
- */
 (function () {
-  var COURSE_NAME = 'Coducting performance reviews'; // change to your course title
-  var DEBUG = true;              // set to false once everything works
+  var COURSE_NAME = 'Conducting Performance Reviews';
+  var DEBUG = true; // set to false once everything works
 
   function track(name, props) {
     props = props || {};
@@ -23,22 +19,29 @@
     var startedAt = Date.now();
     var slideEnteredAt = Date.now();
     var completed = false;
+    var percentSeen = 0;
 
-    emitter.addEventListener('CPAPI_MOVIESTART', function (e) {
-      if (DEBUG) console.log('[Captivate] MOVIESTART', e);
+    function complete() {
+      if (completed) return;
+      completed = true;
+      track('Course Completed', {
+        minutes_in_course: Math.round((Date.now() - startedAt) / 60000)
+      });
+    }
+
+    emitter.addEventListener('CPAPI_MOVIESTART', function () {
       track('Course Started');
     });
 
     emitter.addEventListener('CPAPI_SLIDEENTER', function (e) {
-      if (DEBUG) console.log('[Captivate] SLIDEENTER', e);
       var d = getData(e);
       slideEnteredAt = Date.now();
+      if (d.percentageSlideSeen != null) percentSeen = Math.round(d.percentageSlideSeen);
       track('Slide Viewed', {
-        slide_number: d.slideNumber != null ? d.slideNumber
-          : (window.cpAPIInterface && window.cpAPIInterface.getCurrentSlideIndex
-             ? window.cpAPIInterface.getCurrentSlideIndex() : null),
-        slide_label: d.slideLabel || null
+        slide_number: d.slideNumber != null ? d.slideNumber : null,
+        percent_of_course_seen: percentSeen
       });
+      if (percentSeen >= 100) complete();
     });
 
     emitter.addEventListener('CPAPI_SLIDEEXIT', function (e) {
@@ -67,27 +70,22 @@
       });
     });
 
+    // Captivate can fire MOVIESTOP before the course starts,
+    // so only count it once most of the course has been seen.
     emitter.addEventListener('CPAPI_MOVIESTOP', function () {
-      if (completed) return;
-      completed = true;
-      track('Course Completed', {
-        minutes_in_course: Math.round((Date.now() - startedAt) / 60000)
-      });
+      if (percentSeen >= 90) complete();
     });
   }
 
-  // Captivate creates its event emitter after the course loads, so wait for it.
   var tries = 0;
   var timer = setInterval(function () {
     tries++;
-    var emitter = window.cpAPIEventEmitter ||
-      (window.cpAPIInterface && window.cpAPIInterface.getEventEmitter
-        ? window.cpAPIInterface.getEventEmitter() : null);
+    var emitter = window.cpAPIEventEmitter;
     if (emitter && emitter.addEventListener) {
       clearInterval(timer);
       if (DEBUG) console.log('[Amplitude] Connected to Captivate events');
       attach(emitter);
-    } else if (tries > 120) { // give up after ~60 seconds
+    } else if (tries > 120) {
       clearInterval(timer);
       console.warn('[Amplitude] Could not find Captivate event emitter');
     }
