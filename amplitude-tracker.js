@@ -15,7 +15,6 @@
     return (e && (e.Data || e.data)) || {};
   }
 
-  // Looks up the slide's name (as set in Captivate) from the course data.
   function slideName(slideNumber, navid) {
     try {
       var D = window.cp && window.cp.D;
@@ -76,7 +75,6 @@
     });
 
     emitter.addEventListener('CPAPI_QUESTIONSUBMIT', function (e) {
-      if (DEBUG) console.log('[Captivate] QUESTIONSUBMIT', e);
       var d = getData(e);
       track('Quiz Question Answered', {
         slide_name: slideName(currentSlideNumber()),
@@ -95,8 +93,6 @@
       });
     });
 
-    // Captivate can fire MOVIESTOP before the course starts,
-    // so only count it once most of the course has been seen.
     emitter.addEventListener('CPAPI_MOVIESTOP', function () {
       if (percentSeen >= 90) complete();
     });
@@ -110,4 +106,9 @@
       clearInterval(timer);
       if (DEBUG) console.log('[Amplitude] Connected to Captivate events');
       attach(emitter);
-    } else if (tries >
+    } else if (tries > 120) {
+      clearInterval(timer);
+      console.warn('[Amplitude] Could not find Captivate event emitter');
+    }
+  }, 500);
+})();
